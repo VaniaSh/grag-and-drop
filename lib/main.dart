@@ -11,14 +11,14 @@ class DragApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Named Routes Demo',
+      title: 'Test task by Vania Shepetko',
       // Start the app with the "/" named route. In this case, the app starts
       // on the FirstScreen widget.
       initialRoute: '/',
       routes: {
         // When navigating to the "/" route, build the FirstScreen widget.
         '/': (context) => const HomeScreen(),
-        // When navigating to the "/second" route, build the SecondScreen widget.
+        // When navigating to the "/game" route, build the GameScreen widget.
         '/game': (context) => const DragScreen(),
       },
     );
